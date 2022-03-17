@@ -46,8 +46,20 @@ footer {
     height: 80px;
 }
 
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
 footer .fas {
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+.fas.fa-angle-up {
+    font-size: 1rem;
 }
 
 /* footer left */
@@ -59,17 +71,16 @@ footer .fas {
     width: 12%;
 }
 
-.f-left-icon {
+/* footer center */
+.f-center {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    flex-shrink: 0;
-    height: 60px;
+    width: 50%;
 }
 
-.fas.fa-angle-up {
-    font-size: 1rem;
+.fa-share-square {
+    color: #4bc800;
 }
 
 /* footer right */
