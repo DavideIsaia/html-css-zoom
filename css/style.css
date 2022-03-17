@@ -8,15 +8,27 @@ html {
     background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik Mono One', sans-serif;
 
 }
 
 header {
     height: 80px;
-    /* debug */
-    background-color: darkslategray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* Left nav */
+.nav {
+    display: flex;
+}
+
+.h-icon {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #4a4a4a;
+    padding: 0.3rem;
+    border-radius: 5px;
 }
 
 main {
