@@ -6,4 +6,25 @@
 
 html {
     background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+header {
+    height: 80px;
+    /* debug */
+    background-color: darkslategray;
+}
+
+main {
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #222222;
+    height: 100px;
 }
